@@ -1,0 +1,605 @@
+html{  
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+@font-face {
+font-family: "Cero Pro";
+src: url("style/fonts/CeraPro-Regular.ttf");
+src:
+url("style/fonts/CeraPro-Bold.ttf") format("ttf")
+}
+
+body{
+    margin: 0;
+    font-family: "Cera Pro";
+}
+
+.logo{
+    width: 3%;
+    float: left;
+    padding-left: 35px;
+    z-index: 1;
+    padding-top: 5px;
+}
+
+header{
+ margin-bottom: -80px;
+}
+
+.meniu > ul > li > a{
+    color: white;
+    
+}
+
+.meniu > ul > li > a:hover{
+    color: #F3D6D8;
+    padding: 1px 0 0 0;
+    border-top: 3px solid rgba(255, 255, 255, 0.3);
+    transition: width 0.2s;
+
+    
+}
+
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+a, a:visited {
+    color: inherit;
+}
+
+nav{
+    float: right;
+    
+}
+
+.activ{
+    padding: 1px;
+    border-top: 3px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 80px;
+    padding-top: 20px;
+}
+
+nav a{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.discover{
+    width: 85px;
+    height: 30px;
+    border: 2px solid white;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 50%;
+    left: 46%;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.link:hover{
+    color: #F3D6D8;
+    
+}
+.dicover:hover{
+    background-color: rgba(243, 214, 216, 0.3);
+    background-color: #F3D6D8;
+}
+
+.link:visited{
+    color: white;
+}
+
+#first_page{ 
+    width: 100%;
+    height: 95%;
+    background-color: aqua;
+    background-image: url(../images/tokyo_cover.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px
+}
+
+
+#tokyo_tower,
+#tokyo_temple,
+#tokyo_skytree {
+    width: 250px;
+    height: 400px;
+}
+
+.white_container{
+   width: 100%;
+    height: 80%;
+}
+
+h1{
+    font-size: 40px;
+    margin-right: 0px;
+    padding-right: 0px;
+    color: #DEB8B8;
+}
+
+h6{
+    font-size: 40px;
+    color: white;
+}
+
+
+
+.landmarks{
+    width: 40%;
+    float: left;    
+}
+
+.landmarks_right{
+    float: right;
+    width: 50%;
+    margin-top: 220px;
+}
+
+.landmarks_left{
+    width: 50%;
+    float: left;
+    margin-top: 45px;
+    padding-left: 0px;
+    
+}
+
+.landmarks_center{
+    padding-left: 22%;
+}
+
+.chinese5{
+    margin-bottom: -20px;
+    
+}
+
+.chinese_translucid{
+    font-size: 30px;
+    z-index: -1;
+    margin-top: 5px;
+    position: absolute;
+    
+    
+}
+
+.bla{
+    float: left;
+    font-size: 18px;
+    width: 35%;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    color: #777777;
+    padding-left: 0px;
+    position: absolute;
+    
+}
+
+
+.r{
+    margin-top: -400px;
+}
+
+
+#kimono{
+    width: 34%;
+    padding-top: 680px;
+    left: 207px;
+    position: absolute;
+}
+
+
+#discover_tokyo{
+    padding-top: 15%;
+}
+
+
+.text_2{
+    font-size: 18px;
+    width: 36%;
+    margin-right: 160px;
+    margin-top: -370px;
+    color: #777777;
+    float: right;
+}
+
+.text_6{
+    margin-top: 190px;
+}
+
+.text_1{
+    font-size: 18px;
+    width: 40%;
+    margin-right: 120px;
+    padding-top: 10px;
+    float: right;
+    color: #777777;
+  
+}
+
+.text_69{
+    font-size: 18px;
+    width: 93%;
+    margin-left: 45px;
+    padding-top: -20px;
+    color: #777777;
+    
+}
+
+.toku{
+    padding-top: 40px;
+    padding-left: 43px;
+}
+
+.eldo{
+    margin-top: -417px;
+    padding-right: 40px;
+
+}
+
+
+.separator{
+    padding-bottom: 170px;
+}
+
+.separator_fashion{
+    padding-bottom: 130px;
+}
+
+.text_block{
+    width: 250px;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    color: #777777;
+}
+
+h2{
+    width: 250px;
+}
+
+h2:hover{
+    color: #DEB8B8;
+}
+
+#temple{
+    right: 50%;
+    align-content: center;
+    
+}
+
+.element3{
+    margin-bottom: 0px;
+    width: 85%;
+    margin-left: 12.3%;
+}
+
+.element{
+    padding-top: 40px;
+    display: inline-block;
+    width: 33%;
+}
+
+.element a{
+    color: black;
+    text-decoration: none;
+}
+
+.element1-3{
+    padding-top: 0px;
+    float: left;
+}
+
+.element2-3{
+    padding-top: 130px;
+}
+
+.element3-3{
+    float: right;
+    padding-top: 0px;
+}
+
+.chinese{
+    margin-bottom: -40px;
+}
+
+#yi,
+#er,
+#san{
+    opacity: 0.5;
+    right: 30px;
+    bottom: -25px;
+    width: 100px;
+    z-index: -1;
+    position: relative;
+}
+
+
+.pink_container{
+    
+    background-color: #DEB8B8;
+    width: 100%;
+    height: 80%;
+    z-index: 0;
+    margin-top: -50px;
+}
+
+.chinese2{
+    margin-bottom: -85px;
+}
+
+
+.text_3{
+    margin-top: -13%;
+    padding-left: 20%;
+}
+
+#map{
+    width: 35%;
+    padding-top: 10%;
+}
+
+#streets{
+    width: 35%;
+    margin-bottom: 13%;
+    margin-left: 16%;
+}
+
+.footer{
+    margin-bottom: 0px;
+    margin-top: 100px;
+    height: 40%;
+    background-color: #DEB8B8;
+}
+
+.footer2{
+    margin-top: 5%;
+    height: 40%;
+    background-color: #DEB8B8;
+}
+
+.f1-3,
+.f2-3,
+.f3-3{
+    vertical-align: middle;
+    display: inline-block;
+    padding-top: 20%;
+    width: 30%;
+    margin-bottom: 0px;
+}
+
+.icons{
+    padding-left: 15px;
+    width: 6%;
+}
+
+.geisha,
+.geisha3{
+    width: 40%;
+    
+    
+}
+
+.geisha{
+    padding-left: 40px;
+}
+
+
+
+#right_photos{
+    width: 35%;
+    margin-left: 550px;
+    position: absolute;
+    
+}
+
+
+
+
+.f1-3{
+    margin-left: -3px;
+   text-align: center; 
+}
+
+.f3-3{
+    margin-top: -3px;
+    margin-left: 6%;
+    
+}
+
+.zoom {
+  transition: transform .3s;
+
+}
+
+
+.footer_logo{
+    width: 15%;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: -140px; 
+}
+
+
+.container2{
+    background-color: #DEB8B8;
+    width: 100%;
+    height: 15%;
+}
+
+.food{
+    padding-top: 12%;
+}
+
+
+
+
+.food_pics{
+    display: inline-block;
+    height: 450px;
+    width: 80%;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+
+.images_c{
+    padding-left: 30px;
+}
+
+.idk{
+    width: 400px;
+    height: 25%;
+}
+
+.test{
+    width: 40%;
+    padding-top: 750px;
+    float: right;
+    padding-right: 120px;
+}
+
+.test2{
+    font-size: 18px;
+    width: 36%;
+    margin-right: -420px;
+    margin-top: 900px;
+    color: #777777;
+    float: right;
+    
+}
+
+.separator_fashion2{
+    padding-top: 106%;
+}
+
+
+.element1{
+    padding-top: 12%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+.culture{
+   -webkit-transform: rotate(-90deg);
+    position: relative;
+    left: -190px;
+    top: -257px;
+    
+    padding: 0 0 0 0;
+}
+
+
+.categories_box1,
+.categories_box2,
+.categories_box3{
+    width: 19%;
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    
+ 
+    
+    
+}
+
+.categories_box1{
+    margin-left: 16.3%;
+    padding-left: -5%;
+    
+   
+}
+
+.separator_culture{
+    padding-top: 10%;
+}
+
+
+
+.r1{
+    margin-top: 2%;
+    
+}
+
+
+.categories_box1:hover,
+.categories_box2:hover,
+.categories_box3:hover{
+    box-shadow: 1px 1px 9px grey;
+    transition: .2s cubic-bezier(.17,.67,.83,.67);
+}
+
+
+
+.culture2{
+    -webkit-transform: rotate(-90deg);
+    position: relative;
+    left: -47%;
+    top: -666px;
+    padding: 0 0 0 0;
+}
+
+
+.button_test{
+    background-color: #F3D6D8;
+    color: #777777;
+    border-color: #F3D6D8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
